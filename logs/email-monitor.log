@@ -1,0 +1,682 @@
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Start-Process : Impossible d'ex‚cuter cette commande en raison de l'erreurÿ: Le fichier sp‚cifi‚ est introuvable.
+Au caractŠre Ligne:1 : 1
++ Start-Process "/mnt/c/Users/OpenClaw/Documents/Factures/20260326_1307 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+SAVED (PDF failed): Ronald PETITEAU <ronald.petiteau@gmail.com> - Re: Factures pour le soccer
+âœ“ 1 email(s) dÃ©tectÃ©(s) et traitÃ©(s)
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/imaplib.py", line 1006, in _command
+    self.send(data + CRLF)
+  File "/usr/lib/python3.12/imaplib.py", line 332, in send
+    self.sock.sendall(data)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLError: [SSL: BAD_LENGTH] bad length (_ssl.c:2406)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/openclaw/.openclaw/workspace/scripts/email-monitor.py", line 192, in <module>
+    results = check_and_print()
+              ^^^^^^^^^^^^^^^^^
+  File "/home/openclaw/.openclaw/workspace/scripts/email-monitor.py", line 188, in check_and_print
+    mail.logout()
+  File "/usr/lib/python3.12/imaplib.py", line 642, in logout
+    typ, dat = self._simple_command('LOGOUT')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/imaplib.py", line 1230, in _simple_command
+    return self._command_complete(name, self._command(name, *args))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/imaplib.py", line 1008, in _command
+    raise self.abort('socket error: %s' % val)
+imaplib.IMAP4.abort: socket error: [SSL: BAD_LENGTH] bad length (_ssl.c:2406)
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Start-Process : Impossible d'ex‚cuter cette commande en raison de l'erreurÿ: Le fichier sp‚cifi‚ est introuvable.
+Au caractŠre Ligne:1 : 1
++ Start-Process "/mnt/c/Users/OpenClaw/Documents/Factures/20260326_1734 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+SAVED (PDF failed): Ronald PETITEAU <ronald.petiteau@gmail.com> - It invoice
+âœ“ 1 email(s) dÃ©tectÃ©(s) et traitÃ©(s)
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Start-Process : Impossible d'ex‚cuter cette commande en raison de l'erreurÿ: Le fichier sp‚cifi‚ est introuvable.
+Au caractŠre Ligne:1 : 1
++ Start-Process "/mnt/c/Users/OpenClaw/Documents/Factures/20260326_1746 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+SAVED (PDF failed): Ronald PETITEAU <ronald.petiteau@gmail.com> - Facture 433
+âœ“ 1 email(s) dÃ©tectÃ©(s) et traitÃ©(s)
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Start-Process : Impossible d'ex‚cuter cette commande en raison de l'erreurÿ: Le fichier sp‚cifi‚ est introuvable.
+Au caractŠre Ligne:1 : 1
++ Start-Process "/mnt/c/Users/OpenClaw/Documents/Factures/20260326_1756 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+SAVED (PDF failed): Ronald PETITEAU <ronald.petiteau@gmail.com> - Where is my fucking payment ?
+âœ“ 1 email(s) dÃ©tectÃ©(s) et traitÃ©(s)
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Start-Process : Impossible d'ex‚cuter cette commande en raison de l'erreurÿ: Le fichier sp‚cifi‚ est introuvable.
+Au caractŠre Ligne:1 : 1
++ Start-Process "/mnt/c/Users/OpenClaw/Documents/Factures/20260326_1818 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+SAVED (PDF failed): Ronald PETITEAU <ronald.petiteau@gmail.com> - Retard paiement
+âœ“ 1 email(s) dÃ©tectÃ©(s) et traitÃ©(s)
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv
+Aucun nouveau email sur factures/paiements
+
+Registre: /home/openclaw/.openclaw/workspace/data/email-registry.csv

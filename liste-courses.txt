@@ -1,0 +1,31 @@
+# Liste de courses
+
+## Fruits & Légumes
+- [ ] Pommes
+- [ ] Bananes
+- [ ] Carottes
+- [ ] Tomates
+- [ ] Salade
+
+## Viandes & Poissons
+- [ ] Poulet
+- [ ] Saumon
+- [ ] Œufs
+
+## produits laitiers
+- [ ] Lait
+- [ ] Yaourts
+- [ ] Fromage
+
+## Épicerie
+- [ ] Pain
+- [ ] Riz
+- [ ] Pates
+- [ ] Sauce tomate
+- [ ] Café
+- [ ] Chocolat
+
+## Divers
+- [ ] Papier toilette
+- [ ] Savon
+- [ ] Liquide vaiselle

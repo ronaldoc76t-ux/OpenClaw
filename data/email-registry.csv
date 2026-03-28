@@ -1,0 +1,7 @@
+id,timestamp,folder,from,subject,keyword_found,file_path,printed,date_printed
+INBOX:6,2026-03-26T12:58:40.075200,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,Factures pour le basket,facture,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_125836_Facturespourlebasket.txt,false,
+INBOX:7,2026-03-26T13:07:04.802018,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,Re: Factures pour le soccer,facture,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_130702_ReFacturespourlesoccer.txt,false,
+INBOX:8,2026-03-26T17:34:06.486323,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,It invoice,invoice,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_173402_Itinvoice.txt,false,
+INBOX:9,2026-03-26T17:46:03.643205,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,Facture 433,facture,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_174601_Facture433.txt,false,
+INBOX:10,2026-03-26T17:56:04.047591,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,Where is my fucking payment ?,payment,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_175602_Whereismyfuckingpayment.txt,false,
+INBOX:11,2026-03-26T18:18:03.766294,INBOX,Ronald PETITEAU <ronald.petiteau@gmail.com>,Retard paiement,paiement,/mnt/c/Users/OpenClaw/Documents/Factures/20260326_181802_Retardpaiement.txt,false,

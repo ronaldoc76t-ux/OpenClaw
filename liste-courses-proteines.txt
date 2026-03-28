@@ -1,0 +1,33 @@
+# Liste de courses - Protéines
+
+## Viandes
+- [ ] Poulet
+- [ ] Bœuf
+- [ ] Dinde
+- [ ] Porc
+
+## Poissons & Fruits de mer
+- [ ] Saumon
+- [ ] Thon
+- [ ] Crevettes
+- [ ] Cabillaud
+- [ ] Sardines
+
+## Œufs & Lactés
+- [ ] Œufs
+- [ ] Fromage blanc
+- [ ] Yaourts grec
+- [ ] Lait ribs
+
+## Végétarien/Légumineuses
+- [ ] Lentilles
+- [ ] Pois chiches
+- [ ] Haricots rouges
+- [ ] Tofu
+- [ ] Tempeh
+
+## Complementaires
+- [ ] Noix (amandes, cajoux)
+- [ ] Graines (chia, lin, tournesol)
+- [ ] Beurre decacahuète
+- [ ] Quinoa
