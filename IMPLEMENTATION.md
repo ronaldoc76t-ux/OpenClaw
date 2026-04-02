@@ -8,8 +8,8 @@
 | **S5-S6** | PoC Drone ROS2 + Contrôle docking | ✅ Terminé | ⏳ En cours | `impl_drone_ros2.md` + `src/drone_navigation/` |
 | **S7** | Backend minimal + API | ✅ Terminé | ✅ Approuvée | `impl_backend_api.md` |
 | **S8** | Orchestrateur + Tests intégrés | ✅ Terminé | ✅ Approuvée | `impl_orchestrateur.md` |
-| **S9** | Simulation complète + Optimisation | ⏳ À faire | À faire | `impl_simulation.md` |
-| **S10** | Application mobile MVP | ⏳ À faire | À faire | `impl_mobile_mvp.md` |
+| **S9** | Simulation complète + Optimisation | ✅ Terminé | ✅ Approuvée | `impl_simulation.md` |
+| **S10** | Application mobile MVP | ✅ Terminé | ✅ Approuvée | `impl_mobile_mvp.md` |
 | **S11** | Tests Fiabilité/Sécurité/Perf | ⏳ À faire | À faire | `impl_tests.md` |
 | **S12** | Doc + Validation finale | ⏳ À faire | À faire | `impl_final.md` |
 
@@ -44,3 +44,4 @@
 | 2026-04-01 | S5-S6: PoC Drone ROS2 | - | ✅ Approuvée | `review_drone_ros2.md` |
 | 2026-04-01 | S7: Backend API | - | ✅ Approuvée | `review_backend_api.md` |
 | 2026-04-01 | S8: Orchestrateur | - | ✅ Approuvée | `review_orchestrateur.md` |
+| 2026-04-01 | S10: Application Mobile MVP | - | ✅ Approuvée | `review_mobile_mvp.md` |

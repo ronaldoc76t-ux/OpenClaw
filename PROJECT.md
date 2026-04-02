@@ -66,7 +66,7 @@
 - [ ] Phase 2.5: Simulation (S9) ⏳ Prochain
 - [ ] Phase 2.4: Orchestrateur (S8)
 - [ ] Phase 2.5: Simulation (S9)
-- [ ] Phase 2.6: Mobile MVP (S10)
+- [x] Phase 2.6: Mobile MVP (S10)
 - [ ] Phase 2.7: Tests (S11)
 - [ ] Phase 2.8: Doc + Validation (S12)
 
