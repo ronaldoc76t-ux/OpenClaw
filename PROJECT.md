@@ -60,8 +60,9 @@
 
 - [x] Phase 1: Architecture (Tous livrables playbook)
 - [x] Phase 2.1: PoC Camion ROS2 + Prédicteur (S3-S4) ✅
-- [ ] Phase 2.2: PoC Drone ROS2 + Docking (S5-S6) ⏳ En cours
-- [ ] Phase 2.3: Backend API (S7)
+- [x] Phase 2.2: PoC Drone ROS2 + Docking (S5-S6) ✅
+- [x] Phase 2.3: Backend API (S7) ✅
+- [ ] Phase 2.4: Orchestrateur (S8) ⏳ Prochain
 - [ ] Phase 2.4: Orchestrateur (S8)
 - [ ] Phase 2.5: Simulation (S9)
 - [ ] Phase 2.6: Mobile MVP (S10)
