@@ -7,7 +7,7 @@
 | **S3-S4** | PoC Camion ROS2 + Prédicteur trajectoire | ✅ Terminé | ✅ Approuvée | `impl_camion_ros2.md` + `src/truck_navigation/` |
 | **S5-S6** | PoC Drone ROS2 + Contrôle docking | ✅ Terminé | ⏳ En cours | `impl_drone_ros2.md` + `src/drone_navigation/` |
 | **S7** | Backend minimal + API | ✅ Terminé | ✅ Approuvée | `impl_backend_api.md` |
-| **S8** | Orchestrateur + Tests intégrés | ⏳ À faire | À faire | `impl_orchestrateur.md` |
+| **S8** | Orchestrateur + Tests intégrés | ✅ Terminé | ✅ Approuvée | `impl_orchestrateur.md` |
 | **S9** | Simulation complète + Optimisation | ⏳ À faire | À faire | `impl_simulation.md` |
 | **S10** | Application mobile MVP | ⏳ À faire | À faire | `impl_mobile_mvp.md` |
 | **S11** | Tests Fiabilité/Sécurité/Perf | ⏳ À faire | À faire | `impl_tests.md` |
@@ -42,3 +42,5 @@
 |------|----------------|----------|---------|----------------|
 | 2026-04-01 | S3-S4: PoC Camion ROS2 | - | ✅ Approuvée | `review_camion_ros2.md` |
 | 2026-04-01 | S5-S6: PoC Drone ROS2 | - | ✅ Approuvée | `review_drone_ros2.md` |
+| 2026-04-01 | S7: Backend API | - | ✅ Approuvée | `review_backend_api.md` |
+| 2026-04-01 | S8: Orchestrateur | - | ✅ Approuvée | `review_orchestrateur.md` |
