@@ -10,7 +10,7 @@
 | **S8** | Orchestrateur + Tests intégrés | ✅ Terminé | ✅ Approuvée | `impl_orchestrateur.md` |
 | **S9** | Simulation complète + Optimisation | ✅ Terminé | ✅ Approuvée | `impl_simulation.md` |
 | **S10** | Application mobile MVP | ✅ Terminé | ✅ Approuvée | `impl_mobile_mvp.md` |
-| **S11** | Tests Fiabilité/Sécurité/Perf | ✅ Terminé | ✅ Approuvée | `impl_tests.md` |
+| **S11** | Tests Fiabilité/Sécurité/Perf | ✅ Terminé | ✅ Approuvée | `impl_tests.md` + `review_tests.md` |
 | **S12** | Doc + Validation finale | ✅ Terminé | ✅ Approuvée | `impl_final.md` |
 
 ---
