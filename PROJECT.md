@@ -32,8 +32,8 @@
 | Architecture Technologique | ✅ Terminé | arch-technologique | 04-architecture-technologique.md |
 | Architecture Camion | ✅ Terminé | arch-truck | 05-camion.md |
 | Architecture Drone | ✅ Terminé | arch-drone | 06-drone.md |
-| Architecture Backend | ✅ Terminé | arch-backend | 07-backend.md |
-| Architecture Mobile | ✅ Terminé | arch-mobile | 08-application-mobile.md |
+| Architecture Backend | ✅ Terminé (corrigé) | arch-backend | 07-backend.md |
+| Architecture Mobile | ✅ Terminé (corrigé) | arch-mobile | 08-application-mobile.md |
 | Coordination Multi-Agents | ✅ Terminé | coord-agent | 09-coordination-multi-agents.md |
 | Plan Simulation | ✅ Terminé | sim-engineer | 10-simulation-plan.md |
 | Roadmap 12 semaines | ✅ Terminé | pm | 11-roadmap-12-semaines.md |

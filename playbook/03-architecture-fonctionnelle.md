@@ -2,9 +2,9 @@
 
 ## Story
 - En tant que Product Owner, je veux des user stories des activités principales pour prioriser les développements fonctionnels.
-- Critère d’acceptation : cas d’usage, flux, interactions, séquences, et conditions de succès sont décrits.
+- Critère d'acceptation : cas d'usage, flux, interactions, séquences, et conditions de succès sont décrits.
 
-## Cas d’usage
+## Cas d'usage
 1. Lancement mission
 2. Ramassage déchets
 3. Rendez-vous dynamique
@@ -31,14 +31,56 @@
 - T+N+10s confirmation
 
 ## Préconditions
-- GPS valide, batterie suffisante, autorisations
+- GPS valide, batterie suffisante (>=80%), autorisations de vol obtenues
+- Réseau disponible (ou mode dégradé activé)
+- Camion en route sur trajectoire规划
 
 ## Postconditions
 - Déchet collecté, mission mise à jour, drone retour
+- Telemetry confirmée en base de données
+- Notification envoyée à l'opérateur
 
-## Plan d’action séquentiel (Playbook 03)
-1. Traduire chaque cas d’usage en user stories avec critères Acceptance (Given/When/Then).
+## Plan d'action séquentiel (Playbook 03)
+1. Traduire chaque cas d'usage en user stories avec critères Acceptance (Given/When/Then).
 2. Implémenter les flux opérationnels par composant (Orchestrateur, Camion, Drone, Backend, Mobile).
 3. Définir scénarios de tests e2e et fuzz pour les points de rendez-vous dynamique.
 4. Prioriser backlog pour MVP avec versionnage (v0.1->v1.0).
 5. Exécution des tests et retour en rétroaction sur la roadmap.
+
+## Diagramme de Séquence (Example: Rendez-vous dynamique)
+```mermaid
+sequenceDiagram
+    participant Backend
+    participant Camion
+    participant Drone
+    participant Mobile
+
+    Backend->>Camion: send_mission(trayectory)
+    Camion->>Backend: acknowledge
+    
+    loop Prédiction position
+        Camion->>Backend: telemetry_update(10Hz)
+    end
+    
+    Backend->>Drone: assign_mission(target_zone)
+    Drone->>Backend: acknowledge
+    
+    Drone->>Drone: detect_collect(waste)
+    Drone->>Backend: waste_collected
+    
+    Backend->>Camion: calculate_rendezvous_window
+    Backend->>Drone: send_rendezvous_point
+    
+    par Synchronisation
+        Camion->>Backend: position_update(1Hz)
+        Drone->>Drone: approach_to_point
+    end
+    
+    Note over Camion,Drone: Fenêtre: ±3s, ±2m
+    
+    Drone->>Camion: dock_and_deposit
+    Camion->>Drone: deposit_confirmed
+    
+    Drone->>Backend: mission_complete
+    Backend->>Mobile: notify_user(mission_complete)
+```

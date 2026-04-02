@@ -6,10 +6,20 @@
 
 ## 1. Mécanique & électronique
 - Châssis renforcé avec plateforme de dépôt et stabilisation.
-- Capteurs: lidar 360°, caméras stéréo, radar long portee, GPS RTK, IMU.
+- **Vitesse cible: 30-50 km/h** (mode urbain)
+
+### Capteurs (avec redondance)
+| Capteur | Primary | Backup | Role |
+|---------|---------|--------|------|
+| LiDAR | Velodyne VLP-16 | Livox Mid-360 | Percepción 360° |
+| Caméra | Stereolabs ZED 2 | Realsense D455 | Vision AI |
+| Radar | Continental ARS408 | - | Détection longue portée |
+| GPS | u-blox ZED-F9P RTK | - | Position cm-level |
+| IMU | XSens MTi-680G | - | Orientation/-heading |
+
 - Actuateurs: direction assistée + EPS, freinage électronique, propulsion hybride ou électrique.
 - Trémie: zone réception amortie, capteurs niveau, compacteur hydraulique, sécurités anti-retournement.
-- Alimentation: LiFePO4, alternateur, UPS, gestion BMS.
+- Alimentation: LiFePO4 (100kWh), alternateur, UPS, gestion BMS.
 - Sécurité: barrières, E-stop, prototypes anti-obstacle.
 
 ## 2. Logiciel ROS2 Camion

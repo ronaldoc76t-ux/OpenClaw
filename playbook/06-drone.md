@@ -5,14 +5,26 @@
 - Critère d’acceptation : concept drone, communication, prise/dépôt et logique de pilotage couvert.
 
 ## 1. Mécanique & électronique
-- Type: quad/octocopter cargo.
-- Moteurs brushless + ESC 4-in-1.
-- Batterie: 8S LiPo 15-20Ah, monitorée.
-- Capteurs: caméra AI, lidar léger, GPS RTK, IMU.
-- Préhension: bras + fixation magnétique + capteur charge.
-- Dépose: guidage vision, interface camion stable.
-- Communication: 5G + Wi-Fi mesh + LoRa backup.
-- Contraintes: masse max + charge utile + autonomie.
+- **Type: Octocopter cargo** (plus stable que quad pour docking)
+- Masse max: 15kg (avec charge)
+- **Charge utile: 1 sac de 50L max (~10kg)**
+- Autonomie: **15-20 min avec charge**, 25 min à vide
+
+### Spécifications
+| Composant | Modèle | Notes |
+|-----------|--------|-------|
+| Moteurs | T-Motor P80x2 | 800W chacun |
+| ESC | Hobbywing X8 | 4-in-1 |
+| Batterie | 8S LiPo 16Ah | 600g, 44.4V |
+| LiDAR | Livox Mid-Mini | 40m range |
+| Caméra | Oak-D Pro | AI vision |
+| GPS | u-blox NEO-M9N | RTK Ready |
+| IMU | BMI088 | High precision |
+
+- Gestion thermique: ventilateurs actifs pour vol stationnaire
+- Préhension: bras robotique + fixation magnétique
+- Dépose: guidage vision (AprilTags sur trémie)
+- Communication: 5G + Wi-Fi mesh + LoRa backup
 
 ## 2. Logiciel ROS2 Drone
 - Nodes: vision_perception, object_detection, path_planner, approach_controller, docking_manager, battery_monitor, failsafe, comm_interface.

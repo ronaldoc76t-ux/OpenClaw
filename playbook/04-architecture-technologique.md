@@ -5,9 +5,9 @@
 - Critère d’acceptation : stack, protocoles, sécurité, temps réel et monitoring précisés.
 
 ## Choix techniques
-- ROS2 Humble / Foxy
+- ROS2 Humble (LTS, support jusqu'en 2027)
 - DDS (FastRTPS / CycloneDDS)
-- Simulateur: Gazebo + Ignition
+- Simulateur: Gazebo Harmonic (latest LTS)
 - Backend: Kubernetes, Kafka, PostgreSQL, Redis
 - Mobile: Flutter / React Native
 - API: gRPC + REST + MQTT
