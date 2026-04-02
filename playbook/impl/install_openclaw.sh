@@ -110,7 +110,7 @@ install_ros2() {
     log_info "Distribution ROS2: $ROS2_DISTRO"
     
     # Ajouter la clé ROS
-    curl -sSL https://packages.ros.org/ros.key | gpg --dearmor -o /usr/share/keyrings/ros-archive-keyring.gpg
+    curl -k -sSL https://packages.ros.org/ros.key | gpg --dearmor -o /usr/share/keyrings/ros-archive-keyring.gpg
     
     # Ajouter le repository
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu ${UBUNTU_CODENAME} main" | tee /etc/apt/sources.list.d/ros2.list > /dev/null
