@@ -66,3 +66,8 @@
 - Documentation technique
 - CI/CD pipeline vert
 - Démo fonctionnelle validée par PO
+
+## Stratégie de Redondance Orchestrateur
+- Mode **active-passive** avec heartbeat
+- Si primary fail → secondary prend en charge en < 5s
+- DNS switch ou IP failover automatique

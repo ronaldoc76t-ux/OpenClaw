@@ -18,6 +18,13 @@
 - Rendez-vous dynamique et dépôt
 - Retour de drone et reporting
 
+## Protocole de Réservation de Rendez-Vous
+Pour éviter le deadlock sur RV simultanés:
+1. Drone requiert fenêtre RV → Backend alloue slot unique
+2. Slot réservé avec timeout 30s
+3. Si timeout → slot libéré, réassigne
+4.ACK signé cryptographiquement par camion
+
 ## Acteurs et interactions
 - Drone ↔ Orchestrateur (planning/état)
 - Camion ↔ Orchestrateur (position projetée)
@@ -39,6 +46,38 @@
 - Déchet collecté, mission mise à jour, drone retour
 - Telemetry confirmée en base de données
 - Notification envoyée à l'opérateur
+
+## Catalogue de Messages d'Erreur
+
+| Code | Message Utilisateur | Action Recommandée |
+|------|---------------------|-------------------|
+| E001 | "Mission échouée: drone unreachable" | Vérifier signal drone, relancer |
+| E002 | "Rendez-vous annulé: timeout" | Réassigner fenêtre RV |
+| E003 | "Batterie drone critique (<15%)" | Retour immédiat à base |
+| E004 | "Perte connexion camion" | Mode dégradé activé |
+| E005 | "Collision détectée" | Arrêt d'urgence immédiat |
+| E006 | "Capteur défaillant" | Basculement-capteur backup |
+
+## Contrôles d'Urgence Mobile
+- **Bouton STOP** : Arrêt immédiat tous drones
+- **Reprise manuelle** : Contrôle direct drone via joystick virtuel
+- **Mode pause** : Suspendre mission temporairement
+
+## Matrice de Traçabilité Exigences → Tests
+
+| Exigence | UC | Critère | Test |
+|----------|-----|---------|------|
+| REQ-UC001-001 | UC-001 | Taux collecte >90% | TestCharge_01 |
+| REQ-UC002-001 | UC-002 | Confiance détection >85% | TestDetection_01 |
+| REQ-UC003-001 | UC-003 | Latence RV <100ms | TestRV_Perf_01 |
+| REQ-UC004-001 | UC-004 | Batterie >40% retour | TestBattery_01 |
+| REQ-UC005-001 | UC-005 | Latence mobile <1s | TestMobile_01 |
+
+## Justification des Seuils
+- **85% confiance détection**: Issue de tests YOLO sur dataset WasteNet v1.0
+- **40% batterie retour**: Marge de sécurité pour retour sans incident
+- **15% batterie critique**: Seuil permettant 3min vol urgence
+- **Latence <100ms**: Contrainte DDS实测 en milieu urbain 5G
 
 ## Plan d'action séquentiel (Playbook 03)
 1. Traduire chaque cas d'usage en user stories avec critères Acceptance (Given/When/Then).

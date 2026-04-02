@@ -4,6 +4,12 @@
 - En tant que product manager mobile, je veux des user stories pour l'interface client et le suivi en temps réel.
 - Critère d'acceptation : écrans, flux, API, notifications et sécurité définis.
 
+## Décisions Techniques Validées
+- **Framework**: Flutter (performances cross-platform, équipe interne)
+- **Map provider**: Mapbox (coût, offline support)
+- **State management**: Riverpod
+- **Architecture**: Clean Architecture (data/domain/presentation)
+
 ## 1. Écrans
 
 ### Écran 1: Dashboard Mission
@@ -110,12 +116,12 @@ Login → Email/Password → 2FA (optionnel) → Dashboard
 - JWT access token (15 min)
 - JWT refresh token (7 jours)
 - Stockage: Keychain (iOS) / Keystore (Android)
-- Biométrie: FaceID / Fingerprint pour unlock
+- **Biométrie**: Second facteur (après mot de passe), jamais seul
 
 ### Réseau
-- Certificate pinning
+- Certificate pinning avec backup pins
 - HTTPS only
-- mTLS optionnel pour mode entreprise
+- **Jailbreak/root detection**: Bloquer ou alerter sur appareil compromis
 
 ### Données locales
 - Chiffrement SQLite avec SQLCipher
@@ -135,6 +141,26 @@ Online: Real-time sync
 Offline: Queue actions locally
 Reconnect: Batch upload queue + fetch updates
 ```
+
+### Fallback Carte
+- Si map fail → saisie adresse manuelle avec autocomplete (Google Places API)
+
+## 7. Performance & UX
+
+### Optimisations
+- **Skeleton loaders** sur Dashboard, Historique, Tracking
+- **Virtualisation** listes avec pagination
+- **Lazy loading** images (WebP, cache local)
+- **Code splitting** via deferred libraries
+
+### Accessibilité
+- Contraste WCAG AA minimum
+- Support TalkBack/VoiceOver
+- Texte redimensionnable
+
+### Feedback
+- Haptic feedback sur confirmations critiques
+- Transitions définies (fade navigation, slide modales)
 
 ## 7. Paiements (Optional)
 

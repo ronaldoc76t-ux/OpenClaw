@@ -53,5 +53,6 @@ Contenu insuffisant pour une architecture complète.
 ---
 
 ## Résumé
-- **REJET** - Documents 07 et 08 doivent être enrichis considérablement
-- Retour à l'équipe pour expansion avant validation
+- **VALIDÉ** ✅ - Documents enrichis et corrigés
+- 07: 874 → 3486 octets (spec API, DB, Kafka détaillés)
+- 08: 808 → 3809 octets (flux Auth, notifications, offline)

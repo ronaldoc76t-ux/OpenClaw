@@ -40,6 +40,29 @@
 - Collisions -> E-STOP, geo-fencing
 - Sécurité -> rotation clés, audit
 
+## Profils QoS ROS2
+
+| Topic | Reliability | Durability | History Depth | Deadline |
+|-------|-------------|------------|---------------|----------|
+| /truck/position | BEST_EFFORT | VOLATILE | 1 | 100ms |
+| /drone{ID}/position | BEST_EFFORT | VOLATILE | 1 | 100ms |
+| /truck/command | RELIABLE | TRANSIENT_LOCAL | 10 | 1s |
+| /drone{ID}/mission | RELIABLE | TRANSIENT_LOCAL | 10 | 1s |
+| /rendezvous/plan | RELIABLE | TRANSIENT_LOCAL | 100 | 100ms |
+| /telemetry/* | BEST_EFFORT | VOLATILE | 1 | 100ms |
+
+## DDS-Security
+- Activation native via fichier `dds_security.xml`
+- Enrollment auto des nœuds via CA certificates
+- Permissions granulaires par namespace (camion, drone, backend)
+
+## Architecture Edge pour Synchronisation Critique
+```
+Camion (DDS) ←→ Drone (DDS)     ←─ Chemin temps réel critique
+     ↓                                  (pas de cloud)
+Bridge DDS → Cloud (analytics)   ←─ Chemin analytique
+```
+
 ## Plan d’action séquentiel (Playbook 02)
 1. Documenter chaque interface et protocole (camion/drone/backend/mobile).
 2. Valider les SLA & contraintes (latence, disponibilité, sécurité) avec l’équipe DevOps.

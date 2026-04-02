@@ -15,8 +15,9 @@
 ### Auth (OAuth2/JWT)
 - Providers: Google, Apple, email/password
 - JWT tokens: access (15min) + refresh (7 jours)
-- 2FA: TOTP (optional pour admin)
+- 2FA: TOTP (optionnel pour admin) - biométrie COMME second facteur, pas alternatif
 - RBAC: admin, operator, viewer
+- **Hash mots de passe**: Argon2id (pas bcrypt)
 
 ### Microservices
 | Service | Ports | Responsabilité |
@@ -115,3 +116,38 @@ telemetry (time, drone_id, truck_id, lat, lng, speed, battery)
 ### Alerts
 - Slack/Discord pour équipe ops
 - PagerDuty pour critique
+
+## 7. RGPD & Conformité
+
+### Droit à l'effacement (Article 17)
+- Fonction `delete_user_data(user_id)` pour anonymisation
+- Données supprimées: email, phone, localisation, historique
+
+### Registre des Traitements
+| Traitement | Base légale | Données | Rétention |
+|------------|------------|----------|-----------|
+| user_management | Consentement | email, nom, phone | 5 ans post-suppression |
+| fleet_telemetry | Intérêt légitime | GPS, télémétrie | 90 jours puis agrégé |
+| video_surveillance | Obligation légale | Vidéo | 30 jours |
+
+## 8. CI/CD & DevOps
+
+### Pipeline (GitLab CI / GitHub Actions)
+```yaml
+stages: build, test, scan, build-image, deploy
+- build: compilation Go/Node
+- test: unit tests + coverage >80%
+- scan: SAST, dependency check
+- build-image: Docker build + push
+- deploy: Helm upgrade via ArgoCD
+```
+
+### Backup/Restore
+- pg_dump quotidien + WAL-G pour archive
+- Backup Kafka: MirrorMaker2 vers secondary
+- RTO: 4h, RPO: 1h
+
+### PodDisruptionBudget
+```yaml
+minAvailable: 2 pour services critiques
+```
