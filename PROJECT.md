@@ -63,9 +63,8 @@
 - [x] Phase 2.2: PoC Drone ROS2 + Docking (S5-S6) ✅
 - [x] Phase 2.3: Backend API (S7) ✅
 - [x] Phase 2.4: Orchestrateur (S8) ✅
-- [ ] Phase 2.5: Simulation (S9) ⏳ Prochain
+- [x] Phase 2.5: Simulation (S9) ✅
 - [ ] Phase 2.4: Orchestrateur (S8)
-- [ ] Phase 2.5: Simulation (S9)
 - [x] Phase 2.6: Mobile MVP (S10)
 - [x] Phase 2.7: Tests (S11) ✅
 - [x] Phase 2.8: Doc + Validation (S12) ✅
@@ -74,7 +73,7 @@
 
 ## Métriques
 
-- **Progression**: 100% (11/11 livrables)
+- **Progression**: 100% (12/12 livrables)
 - **Budget**: À définir
 - **Équipe**: 8 agents spécialisés
 - **Timeline**: 12 semaines (roadmap)
